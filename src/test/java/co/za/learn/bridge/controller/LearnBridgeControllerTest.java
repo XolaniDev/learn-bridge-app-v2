@@ -87,7 +87,7 @@ class LearnBridgeControllerTest extends ContainerBase {
   void testUpdateUserWithInvalidRequest() {
 
     UpdateUserRequest updateRequest = new UpdateUserRequest();
-
+//
     updateRequest.setName("NoFarmIdNewName");
     updateRequest.setSurname("NoFarmIdNewSurname");
     updateRequest.setEmail("NoFarmIdNewEmail");
